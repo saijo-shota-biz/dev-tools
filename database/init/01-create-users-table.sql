@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS users; 
+
+CREATE TABLE users (
+  id TEXT NOT NULL,
+  name TEXT NOT NULL,
+  email TEXT UNIQUE,
+  version INTEGER NOT NULL,
+  PRIMARY KEY(ID)
+);

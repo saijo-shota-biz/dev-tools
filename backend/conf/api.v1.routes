@@ -1,0 +1,11 @@
+#users
+GET    /users                       com.systemya_saijo.user.controller.UserController.list(request:Request)
+GET    /users/:userId               com.systemya_saijo.user.controller.UserController.show(request:Request, userId)
+POST   /users                       com.systemya_saijo.user.controller.UserController.create(request:Request)
+PATCH  /users/:userId               com.systemya_saijo.user.controller.UserController.update(request:Request, userId)
+DELETE /users/:userId               com.systemya_saijo.user.controller.UserController.delete(request:Request, userId)
+
+#POST
+#PATCH
+#PUT
+#DELETE
